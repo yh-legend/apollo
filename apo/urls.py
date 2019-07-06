@@ -6,3 +6,4 @@ urlpatterns = [
     path('detail', views.detail, ),
     path('safe', views.safe, ),
 ]
+

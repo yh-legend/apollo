@@ -27,3 +27,4 @@ def safe(request):
     :return:
     '''
     return HttpResponse('wc方向，安全！')
+
