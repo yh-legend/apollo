@@ -19,3 +19,11 @@ def detail(request):
     :return:
     '''
     return HttpResponse('访问到了information！！！')
+
+def safe(request):
+    '''
+    安全功能
+    :param request:
+    :return:
+    '''
+    return HttpResponse('wc方向，安全！')

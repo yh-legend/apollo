@@ -3,4 +3,6 @@ from apo import views
 
 urlpatterns = [
     path('', views.index, ),
+    path('detail', views.detail, ),
+    path('safe', views.safe, ),
 ]
