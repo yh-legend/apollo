@@ -1,4 +1,4 @@
-from django.shortcuts import render,HttpResponse
+from django.shortcuts import render, HttpResponse
 
 
 # Create your views here.
@@ -12,6 +12,7 @@ def index(request):
     '''
     return render(request, 'login-page.html')
 
+
 def detail(request):
     '''
     访问详情页
@@ -19,6 +20,7 @@ def detail(request):
     :return:
     '''
     return HttpResponse('访问到了information！！！')
+
 
 def safe(request):
     '''
@@ -28,6 +30,7 @@ def safe(request):
     '''
     return HttpResponse('wc方向，安全！')
 
+
 def dailylog(request):
     '''
     日志功能
@@ -35,5 +38,3 @@ def dailylog(request):
     :return:
     '''
     return HttpResponse('G.E.M今夜造了一个恶梦！！')
-
-
