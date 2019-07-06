@@ -28,3 +28,11 @@ def safe(request):
     '''
     return HttpResponse('wc方向，安全！')
 
+def dailylog(request):
+    '''
+    日志功能
+    :param request:
+    :return:
+    '''
+    return HttpResponse('G.E.M今夜造了一个恶梦！！')
+
