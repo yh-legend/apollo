@@ -7,3 +7,4 @@ urlpatterns = [
     path('safe', views.safe, ),
     path('dailylog', views.dailylog, ),
 ]
+
