@@ -36,6 +36,9 @@ def dailylog(request):
     '''
     return HttpResponse('G.E.M今夜造了一个恶梦！！')
 
+def haha():
+    pass
+
 
 
 
